@@ -10,6 +10,7 @@ public class StopWatch {
             arr[i]=(int) Math.round(Math.random()*99+1);
         }
         int temp = 0;
+        example.start();
         System.out.println("Start agument selection sort in:\t" +example.startTime);
         for (int i = 0; i < 100000; i++) {
             for (int j = i; j <100000 ; j++) {
